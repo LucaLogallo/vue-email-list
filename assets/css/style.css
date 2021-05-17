@@ -3,3 +3,29 @@
   margin: 0;
   padding: 0;
 }
+
+#app{
+  padding: 20px;
+}
+
+.email{
+  width: 500px;
+  margin: auto;
+  background-color: red;
+}
+.email ul{
+  list-style: none;
+  padding: 10px;
+}
+
+.email ul li{
+  margin: 20px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+.loading{
+  font-size: 50px;
+  padding: 20px;
+  font-weight: bold;
+}

@@ -11,6 +11,19 @@
 <body>
   <div id="app">
 
+    <div class="email"
+    v-if="emails.length === 10"
+    >
+      <ul>
+        <li
+        v-for="(email,index) in emails"
+        >email numero {{index+1}} : {{email}}</li>
+      </ul>
+    </div>
+    <div 
+    v-else
+    class="loading"
+    >Loading....</div>
 
   </div>
 
